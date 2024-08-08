@@ -1,4 +1,4 @@
-import ServiceCards from "./ServiceCards";
+import ServiceCards from "./Cards";
 import { articles } from "./Data";
 import Button from "./Button";
 import ArrowBtn from "./ArrowBtn";

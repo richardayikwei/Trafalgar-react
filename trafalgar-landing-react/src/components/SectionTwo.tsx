@@ -1,4 +1,4 @@
-import ServiceCards from "./ServiceCards";
+import ServiceCards from "./Cards";
 import { services } from "./Data";
 import Button from "./Button";
 import Vector from '../assets/Vector.png'
