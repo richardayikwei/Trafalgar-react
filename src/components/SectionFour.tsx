@@ -1,9 +1,4 @@
-import ServiceCards from "./Cards";
-import { articles } from "./Data";
 import Button from "./Button";
-import ArrowBtn from "./ArrowBtn";
-import element2 from "../assets/element2.png";
-import vector1 from '../assets/Vector1.png'
 
 const SectionFour = () => {
   return (
@@ -20,7 +15,7 @@ const SectionFour = () => {
 
       <div className="container flex flex-col mx-auto mt-16">
         {/*Articles*/}
-        <ServiceCards
+        {/* <ServiceCards
           src0={articles[0].image}
           src1={articles[1].image}
           src2={articles[2].image}
@@ -38,7 +33,7 @@ const SectionFour = () => {
           groundImage4={vector1}
         >
           <ArrowBtn />
-        </ServiceCards>
+        </ServiceCards> */}
         <Button btntext="View all" position="justify-center" />
       </div>
     </section>

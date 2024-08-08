@@ -1,6 +1,6 @@
-import { profiles } from "./Data";
-import element from "../assets/element.png";
+import { profiles } from "../constants/data";
 import headshot from "../assets/Group 5.png";
+import { assets } from "../assets/assets";
 
 const Profile = () => {
   return (
@@ -8,12 +8,12 @@ const Profile = () => {
       {/*Profile*/}
       <div
         className="container flex justify-center  flex-col mx-auto  md:space-x-16 mt-24  p-7  md:w-3/4 bg-no-repeat bg-left"
-        style={{ backgroundImage: `url(${element})` }}
+        style={{ backgroundImage: `url(${assets.element})` }}
       >
         <div className="bg-gradient-to-b from-blue-400 to-blue-500 rounded-3xl p-6">
           <div
             className="flex justify-center bg-no-repeat bg-right-top"
-            style={{ backgroundImage: `url(${element})` }}
+            style={{ backgroundImage: `url(${assets.element})` }}
           >
             <h1 className="text-3xl text-white p-7">
               What our customer are saying
@@ -39,8 +39,8 @@ const Profile = () => {
               <p>{profiles[0].summary}</p>
             </div>
           </div>
-              </div>
-              {/*dots and arrows */}
+        </div>
+        {/*dots and arrows */}
         <div className="flex flex-row  justify-around md:w-3/4">
           <div className="h-0 text-4xl text-blue-300">
             <p>&#8592;</p>
