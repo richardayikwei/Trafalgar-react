@@ -83,11 +83,10 @@ function App() {
       ))}
       <Profile />
       <section>
-        {/*Articles heading*/}
+
         <div className="flex flex-col items-center justify-around space-y-5 mt-24">
           <h1 className="text-3xl">Check out our latest article</h1>
 
-          {/*Underline*/}
           <div className="flex justify-start p-3">
             <p className="border-b-2 w-10 border-black"></p>
           </div>
