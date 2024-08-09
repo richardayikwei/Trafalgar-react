@@ -11,12 +11,12 @@ import chartIcon from "./icons/chart.png";
 import infoIcon from "./icons/info.png";
 import info2Icon from "./icons/info2.png";
 import illustration from "./images/illustration.png";
-import microscoping from "./images/micorscoping.png";
+import microscoping from "./images/microscoping.png";
 import facial from "./images/facial.png";
 import illustration2 from "./images/illustration2.png";
 import illustration3 from "./images/illustration3.png";
 import injection from "./images/injection.png";
-import headshot from './profilepics/headshot.png'
+import headshot from './profilepics/headShot.png'
 
 export const assets = {
   bgimages: {

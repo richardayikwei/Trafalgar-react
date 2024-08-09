@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar";
-import SectionThree from "./components/SectionThree";
-import ServiceStatement from "./components/ServiceStatement";
+import Illustration from "./components/Illustration";
 import { services } from "./constants/data";
 import Profile from "./components/Profile";
 import SectionFour from "./components/SectionFour";
@@ -15,7 +14,7 @@ function App() {
       <Navbar />
       <section>
         <div className="hidden md: md:flex ">
-          <img src={assets.images.element} alt="element" />
+          <img src={assets.bgimages.element} alt="element" />
         </div>
         <div className="flex flex-col md:flex-row justify-around items-center container mx-auto ">
           <div className="flex flex-col md:w-1/2 space-y-12 max-w-md mb-32 ">
@@ -37,7 +36,20 @@ function App() {
           </div>
         </div>
       </section>
-      <ServiceStatement />
+      <div className="flex flex-col items-center justify-around space-y-5">
+        <h1 className="text-3xl">Our services</h1>
+
+        <div className="flex justify-start p-3">
+          <p className="border-b-2 w-10 border-black"></p>
+        </div>
+
+        <p className="text-slate-500 mx-5 text-left md:w-1/2">
+          We provide to you the best choices for you. Adjust it to your health
+          needs and make sure undergo treatment with our highly qualified
+          doctors you can consult with us which type of service is suitable for
+          your health
+        </p>
+      </div>
       <section>
         <div className="w-fit flex flex-col mx-auto mt-16">
           <div className="grid grid-cols-3 gap-x-[34px] gap-y-[37px]">
@@ -49,25 +61,27 @@ function App() {
           <Button btntext="Learn more" position="justify-center" />
         </div>
       </section>
-      <SectionThree
-        direction={"flex-row"}
-        src={services[6].icon}
-        statement={services[6].title}
-        text={services[6].description}
-        btntext={"Learn more"}
-        position="justify-start"
-      />
-      <SectionThree
-        direction={"flex-row-reverse"}
-        src={services[7].icon}
-        statement={services[7].title}
-        text={services[7].description}
-        btntext="Download &#8595;"
-        position="justify-start"
-      />
+      {services.slice(6, 7).map((service, idx) => (
+        <Illustration
+          key={idx}
+          service={service}
+          direction={"flex-row"}
+          btnText={"Learn more"}
+          position="justify-start"
+        />
+      ))}
+      {services.slice(7, 8).map((service, idx) => (
+        <Illustration
+          key={idx}
+          service={service}
+          direction={"flex-row-reverse"}
+          btnText={`Download \u2193 `}
+          position="justify-start"
+        />
+      ))}
       <Profile />
-      <SectionFour />
-      <Footer />
+      {/* <SectionFour />
+      <Footer /> */}
     </>
   );
 }

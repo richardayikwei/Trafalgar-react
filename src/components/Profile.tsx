@@ -1,5 +1,5 @@
 import { profiles } from "../constants/data";
-import headshot from "../assets/Group 5.png";
+
 import { assets } from "../assets/assets";
 
 const Profile = () => {
@@ -8,12 +8,12 @@ const Profile = () => {
       {/*Profile*/}
       <div
         className="container flex justify-center  flex-col mx-auto  md:space-x-16 mt-24  p-7  md:w-3/4 bg-no-repeat bg-left"
-        style={{ backgroundImage: `url(${assets.element})` }}
+        style={{ backgroundImage: `url(${assets.bgimages.element})` }}
       >
         <div className="bg-gradient-to-b from-blue-400 to-blue-500 rounded-3xl p-6">
           <div
             className="flex justify-center bg-no-repeat bg-right-top"
-            style={{ backgroundImage: `url(${assets.element})` }}
+            style={{ backgroundImage: `url(${assets.bgimages.element})` }}
           >
             <h1 className="text-3xl text-white p-7">
               What our customer are saying
@@ -27,7 +27,7 @@ const Profile = () => {
 
           <div className="flex md:flex-row flex-col justify-center md:space-x-9 space-y-6 items-center">
             <div className="">
-              <img src={headshot} alt="headshot" className=" flex" />
+              <img src={assets.profilepics.headshot} alt="headshot" className=" flex" />
             </div>
 
             <div className="flex flex-col md:w-52">
