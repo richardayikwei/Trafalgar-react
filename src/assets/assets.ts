@@ -4,14 +4,14 @@ import element2 from "./bgimages/element2.png";
 import vector from "./bgimages/vector.png";
 import vector1 from "./bgimages/vector1.png";
 import favicon from './favicon/favicon.png';
-import bag from './icons/bag.png';
+import bagIcon from './icons/bag.png';
 import searchIcon from "./icons/search.png";
 import bottleIcon from "./icons/bottle.png";
 import chartIcon from "./icons/chart.png";
 import infoIcon from "./icons/info.png";
 import info2Icon from "./icons/info2.png";
 import illustration from "./images/illustration.png";
-import micorscoping from "./images/micorscoping.png";
+import microscoping from "./images/micorscoping.png";
 import facial from "./images/facial.png";
 import illustration2 from "./images/illustration2.png";
 import illustration3 from "./images/illustration3.png";
@@ -33,7 +33,7 @@ export const assets = {
 
   icons: {
     searchIcon,
-    bag,
+    bagIcon,
     bottleIcon,
     chartIcon,
     infoIcon,
@@ -41,7 +41,7 @@ export const assets = {
   },
   images: {
     illustration,
-    micorscoping,
+    microscoping,
     facial,
     illustration2,
     illustration3,
