@@ -1,17 +1,16 @@
-import element2 from '../assets/element2.png'
-import element1 from '../assets/element1.png'
+import { assets } from "../assets/assets";
 
 const Footer = () => {
   return (
     <footer>
       <div
-        style={{backgroundImage: `url(${element2})`}}
+        style={{backgroundImage: `url(${assets.bgimages.element2})`}}
         className=" h-20 mr-20 items-end bg-no-repeat bg-right-bottom   mt-20 "
       ></div>
 
       <div className=" flex flex-col md:flex-row bg-gradient-to-b from-blue-400 to-blue-500 justify-around p-20 space-y-6 ">
         <div
-          style={{backgroundImage: `url(${element1})`}}
+          style={{backgroundImage: `url(${assets.bgimages.element1})`}}
           className="w-20 -ml-28 -mb-20 items-end bg-no-repeat bg-left-bottom hidden md:flex"
         ></div>
 

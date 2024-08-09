@@ -2,11 +2,13 @@ import Navbar from "./components/Navbar";
 import Illustration from "./components/Illustration";
 import { services } from "./constants/data";
 import Profile from "./components/Profile";
-import SectionFour from "./components/SectionFour";
+import ArticleCard from "./components/ArticleCard";
 import Footer from "./components/Footer";
 import { assets } from "./assets/assets";
 import Button from "./components/Button";
 import { ServiceCard } from "./components/ServiceCard";
+import { articles } from "./constants/data";
+import ArrowBtn from "./components/ArrowBtn";
 
 function App() {
   return (
@@ -80,8 +82,28 @@ function App() {
         />
       ))}
       <Profile />
-      {/* <SectionFour />
-      <Footer /> */}
+      <section>
+        {/*Articles heading*/}
+        <div className="flex flex-col items-center justify-around space-y-5 mt-24">
+          <h1 className="text-3xl">Check out our latest article</h1>
+
+          {/*Underline*/}
+          <div className="flex justify-start p-3">
+            <p className="border-b-2 w-10 border-black"></p>
+          </div>
+        </div>
+        <div className="w-fit flex flex-col mx-auto mt-16">
+          <div className="grid grid-cols-3 gap-x-[34px] gap-y-[37px]">
+            {articles.map((article, idx) => (
+              <ArticleCard key={idx} article={article} >
+                <ArrowBtn />
+              </ArticleCard>
+            ))}
+          </div>
+        </div>
+        <Button btntext="View all" position="justify-center" />
+      </section>
+      <Footer />
     </>
   );
 }
