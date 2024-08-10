@@ -3,16 +3,33 @@ import { assets } from "../assets/assets";
 import { Articles } from "../types/article";
 import { Profile } from "../types/profile";
 
-export const profiles : Profile[] = [
+export const profiles: Profile[] = [
   {
     name: "Edward Newgate",
     position: "Founder Circle",
     summary:
       "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
+    headshot: assets.profilepics.headshot,
+
+  },
+  {
+    name: "Richard Ayikwei",
+    position: "Frontend Developer",
+    summary:
+      "“Change is constant so elavate your accuracy”",
+    headshot: assets.profilepics.headshot3,
+
+  },
+  {
+    name: "Alfred Sosu",
+    position: "Mentor",
+    summary:
+      "“Eno easy feeling dey”",
+    headshot: assets.profilepics.headshot2,
   },
 ];
 
-export const articles : Articles[] = [
+export const articles: Articles[] = [
   {
     title: "Disease detection, check up in the laboratory",
     text: "In this case, the role of the health laboratory is very important to do a disease detection...",
