@@ -15,11 +15,11 @@ function App() {
     <>
       <Navbar />
       <section>
-        <div className="hidden md: md:flex ">
+        <div className="hidden w-[131.58px] mt-[160px] md:flex ">
           <img src={assets.bgimages.element} alt="element" />
         </div>
-        <div className="flex flex-col md:flex-row justify-around items-center container mx-auto ">
-          <div className="flex flex-col md:w-1/2 space-y-12 max-w-md mb-32 ">
+        <div className="flex flex-col md:flex-row   container mx-auto md:mt-0 mt-[200px]">
+          <div className="flex flex-col md:w-1/2 space-y-12 w-[445px] h-[338px] rounded-[55px] mt-[] ">
             <h1 className="text-4xl md:text-left text-center max-w-md">
               Virtual healthcare for you
             </h1>
