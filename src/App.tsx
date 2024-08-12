@@ -60,9 +60,9 @@ function App() {
           </p>
         </div>
       </div>
-      {/* <section>
-        <div className=" flex flex-col mx-auto mt-16 ml-[240px] w-[1120px] h-[745px] ">
-          <div className="grid grid-cols-3 gap-x-[34px] gap-y-[37px]">
+      <section>
+        <div className=" flex flex-col mx-auto mt-16 container w-[1120px] h-[745px] ">
+          <div className="md:grid md:grid-cols-3 md:gap-x-[34px] md:gap-y-[37px] hidden">
             {services.slice(0, 6).map((service, idx) => (
               <ServiceCard key={idx} service={service} />
             ))}
@@ -70,7 +70,7 @@ function App() {
 
           <Button btntext="Learn more" position="justify-center" />
         </div>
-      </section> */}
+      </section>
       {/* {services.slice(6, 7).map((service, idx) => (
         <Illustration
           key={idx}
