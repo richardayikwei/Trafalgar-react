@@ -78,6 +78,8 @@ function App() {
           direction={"flex-row"}
           btnText={"Learn more"}
           position="justify-start"
+          widthDescription="md:w-[450px]"
+          widthTitle="md:w-[481px]"
         />
       ))}
       {services.slice(7, 8).map((service, idx) => (
@@ -87,6 +89,8 @@ function App() {
           direction={"flex-row-reverse"}
           btnText={`Download \u2193 `}
           position="justify-start"
+          widthDescription="md:w-[420px]"
+          widthTitle="md:w-[254px]"
         />
       ))}
       {/* <Profile /> */}
