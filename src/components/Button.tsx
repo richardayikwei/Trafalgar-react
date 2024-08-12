@@ -5,10 +5,10 @@ interface ButtonProps {
 
 const Button = ({btntext, position} : ButtonProps) => {
   return (
-    <div className={`flex ${position}`}>
+    <div className={`flex ${position} text-center leading-[60px] text-[#458FF6] `}>
       <a
         href="#"
-        className="bg-white text-blue-400 border-blue-400 border-2 rounded-3xl border-solid px-9 mt-20 py-2 hover:bg-blue-700 hover:text-white"
+        className="bg-white  border-[#458FF6]  border-[1.4px] rounded-[55px] border-solid  mt-20 w-[200px] h-[60px]  hover:bg-blue-700 hover:text-white"
       >
         {btntext}
       </a>
