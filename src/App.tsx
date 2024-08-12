@@ -71,7 +71,7 @@ function App() {
           <Button btntext="Learn more" position="justify-center" />
         </div>
       </section>
-      {/* {services.slice(6, 7).map((service, idx) => (
+      {services.slice(6, 7).map((service, idx) => (
         <Illustration
           key={idx}
           service={service}
@@ -88,7 +88,7 @@ function App() {
           btnText={`Download \u2193 `}
           position="justify-start"
         />
-      ))} */}
+      ))}
       {/* <Profile /> */}
       {/* <section>
         <div className="flex flex-col items-center justify-around space-y-5 mt-24">
