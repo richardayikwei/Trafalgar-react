@@ -6,7 +6,7 @@ type ServiceCardProps = {
 
 export const ServiceCard = ({ service }: ServiceCardProps) => {
   return (
-    <div className="flex-col w-[350px] h-[354px] md:border-transparent md:shadow-xl rounded-[20px]">
+    <div className="flex-col md:w-[350px] h-[354px] md:border-transparent md:shadow-xl rounded-[20px]">
       <img
         src={service.icon}
         alt={service.alt}

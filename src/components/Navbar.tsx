@@ -16,7 +16,7 @@ const Navbar = () => {
           </h1>
         </div>
        
-        <div className="flex flex-col md:flex-row md:space-x-[40px] ml-[40px] w-[545px] h-[23px] mt-[70px] text-[18px] text-[#1F1534] ">
+        <div className="flex flex-col md:flex-row md:space-x-[40px] ml-[40px] md:w-[545px] h-[23px] mt-[70px] text-[18px] text-[#1F1534] ">
           <a
             href="#"
             className="font-bold hover:bg-[#1F1534] w-[51px] hover:text-white"

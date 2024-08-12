@@ -19,7 +19,7 @@ function App() {
         <img src={assets.bgimages.element} alt="element" />
       </div>
 
-      <section className="container mx-auto">
+      <section className="container md:mx-auto">
         <div className="flex flex-col-reverse md:flex-row md:mt-0 mt-[200px] justify-between">
           <div className="flex flex-col md:w-[445px] space-y-9 w-[445px] h-[338px] rounded-[55px]">
             <h1 className="text-[48px] h-[112px] md:text-left text-center w-[427px] font-bold leading-[56px]">
@@ -60,9 +60,9 @@ function App() {
           </p>
         </div>
       </div>
-      <section>
-        <div className=" flex flex-col mx-auto mt-16 container w-[1120px] h-[745px] ">
-          <div className="md:grid md:grid-cols-3 md:gap-x-[34px] md:gap-y-[37px] hidden">
+      <section className="hidden md:flex">
+        <div className=" flex flex-col mx-auto mt-16 container md:w-[1120px] h-[745px] ">
+          <div className="md:grid md:grid-cols-3 md:gap-x-[34px] md:gap-y-[37px]">
             {services.slice(0, 6).map((service, idx) => (
               <ServiceCard key={idx} service={service} />
             ))}
