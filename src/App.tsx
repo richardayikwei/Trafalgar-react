@@ -15,10 +15,10 @@ function App() {
     <>
       <Navbar />
       <section>
-        <div className="hidden w-[131.58px] mt-[63px] md:flex ">
+        <div className="hidden w-[131.58px] h-[115px] mt-[63px] md:flex ">
           <img src={assets.bgimages.element} alt="element" />
         </div>
-        <div className="flex flex-col-reverse md:flex-row mx-auto md:mt-0 mt-[200px] ">
+        <div className="flex flex-col-reverse md:flex-row md:mt-0 mt-[200px]">
           <div className="flex flex-col md:w-[445px] space-y-9 w-[445px] h-[338px] rounded-[55px] md:ml-[190px] ">
             <h1 className="text-[48px] h-[112px] md:text-left text-center w-[427px] font-bold leading-[56px]">
               Virtual healthcare for you
