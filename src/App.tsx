@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <section>
+      {/* <section>
         <div className="hidden w-[131.58px] h-[115px] mt-[63px] md:flex ">
           <img src={assets.bgimages.element} alt="element" />
         </div>
@@ -39,8 +39,8 @@ function App() {
             <img src={assets.images.illustration} alt="illustration" />
           </div>
         </div>
-      </section>
-      <div className="flex flex-col items-center space-y-5 h-[177px] ml-[323px] w-[952px] mt-[200px] ">
+      </section> */}
+      {/* <div className="flex flex-col items-center space-y-5 h-[177px] ml-[323px] w-[952px] mt-[200px] ">
         <div className="w-[212px] font-bold leading-[56px] text-[36px]">
           <h1>Our services</h1>
         </div>
@@ -57,8 +57,8 @@ function App() {
             for your health
           </p>
         </div>
-      </div>
-      <section>
+      </div> */}
+      {/* <section>
         <div className=" flex flex-col mx-auto mt-16 ml-[240px] w-[1120px] h-[745px] ">
           <div className="grid grid-cols-3 gap-x-[34px] gap-y-[37px]">
             {services.slice(0, 6).map((service, idx) => (
@@ -68,8 +68,8 @@ function App() {
 
           <Button btntext="Learn more" position="justify-center" />
         </div>
-      </section>
-      {services.slice(6, 7).map((service, idx) => (
+      </section> */}
+      {/* {services.slice(6, 7).map((service, idx) => (
         <Illustration
           key={idx}
           service={service}
@@ -86,9 +86,9 @@ function App() {
           btnText={`Download \u2193 `}
           position="justify-start"
         />
-      ))}
-      <Profile />
-      <section>
+      ))} */}
+      {/* <Profile /> */}
+      {/* <section>
         <div className="flex flex-col items-center justify-around space-y-5 mt-24">
           <h1 className="text-3xl">Check out our latest article</h1>
 
@@ -106,8 +106,8 @@ function App() {
           </div>
         </div>
         <Button btntext="View all" position="justify-center" />
-      </section>
-      <Footer />
+      </section> */}
+      {/* <Footer /> */}
     </>
   );
 }
