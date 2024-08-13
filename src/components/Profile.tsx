@@ -36,15 +36,15 @@ const Profile = () => {
   let nextProfile = profiles[index];
 
   return (
-    <section>
+    <section className="container mx-auto">
       <div
-        className="container flex justify-center  flex-col mx-auto mt-[251px]   md:w-[1219.58px] md:h-[502px] bg-no-repeat bg-left"
-        style={{ backgroundImage: `url(${assets.bgimages.element})` }}
+        className="container items-center mx-auto flex flex-col mt-[251px] md:w-[1219.58px] md:h-[502px] bg-no-repeat bg-left"
+        // style={{ backgroundImage: `url(${assets.bgimages.element})` }}
       >
         <div className="bg-gradient-to-b from-[#67C3F3] to-[#5A98F2] rounded-[24px] md:w-[1120px] md:h-[425px]">
           <div
             className="flex justify-center bg-no-repeat bg-right-top"
-            style={{ backgroundImage: `url(${assets.bgimages.element})` }}
+            // style={{ backgroundImage: `url(${assets.bgimages.element})` }}
           >
             <h1 className="text-[36px] font-bold leading-[48px] text-white mt-[64px]">
               What our customer are saying
@@ -55,7 +55,7 @@ const Profile = () => {
             <p className="border-b-2 w-[56px]"></p>
           </div>
 
-          <div className="flex md:flex-row flex-col justify items-center mt-[68px]">
+          <div className="flex md:flex-row flex-col items-center mt-[68px]">
             <div className="">
               <img
                 src={nextProfile.headshot}

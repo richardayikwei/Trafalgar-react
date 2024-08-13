@@ -94,16 +94,16 @@ function App() {
         />
       ))}
       <Profile />
-      {/* <section>
-        <div className="flex flex-col items-center justify-around space-y-5 mt-24">
-          <h1 className="text-3xl">Check out our latest article</h1>
+      <section className="md:mt-[216px] container mx-auto">
+        <div className="mx-auto flex flex-col md:w-[462px] md:h-[84px] mt-24">
+          <h1 className="text-[36px] font-bold leading-[56px]">Check out our latest article</h1>
 
-          <div className="flex justify-start p-3">
-            <p className="border-b-2 w-10 border-black"></p>
+          <div className="flex justify-center p-3">
+            <p className="border-b-2 w-[56px] border-black"></p>
           </div>
         </div>
-        <div className="w-fit flex flex-col mx-auto mt-16">
-          <div className="grid grid-cols-3 gap-x-[34px] gap-y-[37px]">
+        <div className=" flex flex-col mt-16  md:w-[1118px] h-[512px]  container mx-auto">
+          <div className="md:grid md:grid-cols-3 md:gap-x-[34px]">
             {articles.map((article, idx) => (
               <ArticleCard key={idx} article={article}>
                 <ArrowBtn />
@@ -112,7 +112,7 @@ function App() {
           </div>
         </div>
         <Button btntext="View all" position="justify-center" />
-      </section> */}
+      </section>
       {/* <Footer /> */}
     </>
   );
