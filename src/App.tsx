@@ -93,7 +93,7 @@ function App() {
           widthTitle="md:w-[254px]"
         />
       ))}
-      {/* <Profile /> */}
+      <Profile />
       {/* <section>
         <div className="flex flex-col items-center justify-around space-y-5 mt-24">
           <h1 className="text-3xl">Check out our latest article</h1>
