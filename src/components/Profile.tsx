@@ -36,7 +36,7 @@ const Profile = () => {
   let nextProfile = profiles[index];
 
   return (
-    <section className="container mx-auto">
+    <section className="container mx-auto hidden md:flex">
       <div
         className="container items-center mx-auto flex flex-col mt-[251px] md:w-[1219.58px] md:h-[502px] bg-no-repeat bg-left"
         // style={{ backgroundImage: `url(${assets.bgimages.element})` }}
