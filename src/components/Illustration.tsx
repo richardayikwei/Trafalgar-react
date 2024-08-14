@@ -26,7 +26,7 @@ const Illustration = ({direction, service , btnText, position, widthDescription,
 
       <div className="flex flex-col md:text-left md:w-[486px] md:h-[388px] text-center">
         <h1
-          className={`md:h-[112px] ${widthTitle} leading-[56px] text-[36px] md:mt-14 font-bold`}
+          className={`md:h-[112px] ${widthTitle} leading-[56px] text-[36px] mt-14 font-bold`}
         >
           {service.title}
         </h1>
