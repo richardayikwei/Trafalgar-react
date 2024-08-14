@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { profiles } from "../constants/data";
-import { assets } from "../assets/assets";
 
 const Profile = () => {
   const [index, setIndex] = useState(0);
