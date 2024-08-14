@@ -13,7 +13,7 @@ const SectionFour = ({article, children}: ArticleCardProps) => {
         alt={article.alt}
         className="md:w-[350px] md:h-[240px]"
       />
-      <div className=" mt-[12px] space-y-[12px] flex flex-col mx-auto">
+      <div className=" mt-[12px] space-y-[12px] flex flex-col md:mx-auto ml-2 md:ml-0">
 
         <h1 className="h-[64px] w-[266px] text-[21px] font-bold leading-[32px]">
           {article.title}
