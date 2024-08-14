@@ -16,9 +16,9 @@ import facial from "./images/facial.png";
 import illustration2 from "./images/illustration2.png";
 import illustration3 from "./images/illustration3.png";
 import injection from "./images/injection.png";
-import headshot from './profilepics/headshot.png';
-import headshot3 from './profilepics/headshot3.png';
-import headshot2 from './profilepics/headshot2.png';
+import headshot from "./profilepics/headshot.png";
+import headshot3 from "./profilepics/headshot3.png";
+import headshot2 from "./profilepics/headshot2.png";
 
 export const assets = {
   bgimages: {
