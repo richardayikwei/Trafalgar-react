@@ -42,7 +42,7 @@ function App() {
           </div>
         </div>
       </section>
-      <div className="flex flex-col items-center space-y-5 md:h-[177px] md:w-[952px] mt-[200px] container mx-auto ">
+      <div className="flex flex-col items-center space-y-5 md:h-[177px] md:w-[952px] mt-[200px] container mx-auto">
         <div className="w-[212px] font-bold leading-[56px] text-[36px]">
           <h1>Our services</h1>
         </div>
@@ -60,8 +60,8 @@ function App() {
           </p>
         </div>
       </div>
-      <section className="hidden md:flex">
-        <div className=" flex flex-col mx-auto mt-16 container md:w-[1120px] h-[745px] ">
+      <section>
+        <div className=" flex flex-col mx-auto mt-16 container md:w-[1120px] md:h-[745px] ">
           <div className="md:grid md:grid-cols-3 md:gap-x-[34px] md:gap-y-[37px]">
             {services.slice(0, 6).map((service, idx) => (
               <ServiceCard key={idx} service={service} />
@@ -71,6 +71,7 @@ function App() {
           <Button btntext="Learn more" position="justify-center" />
         </div>
       </section>
+      
       {services.slice(6, 7).map((service, idx) => (
         <Illustration
           key={idx}
@@ -93,16 +94,16 @@ function App() {
           widthTitle="md:w-[254px]"
         />
       ))}
-      {/* <Profile /> */}
-      {/* <section className="md:mt-[216px] container mx-auto">
-        <div className="mx-auto flex flex-col md:w-[462px] md:h-[84px] mt-24">
+      <Profile />
+      <section className="md:mt-[216px] container mx-auto">
+        <div className="mx-auto text-center flex flex-col md:w-[462px] md:h-[84px] mt-24">
           <h1 className="text-[36px] font-bold leading-[56px]">Check out our latest article</h1>
 
           <div className="flex justify-center p-3">
             <p className="border-b-2 w-[56px] border-black"></p>
           </div>
         </div>
-        <div className=" flex flex-col mt-16  md:w-[1118px] h-[512px]  container mx-auto">
+        <div className=" flex flex-col mt-16  md:w-[1118px] md:h-[512px]  container mx-auto">
           <div className="md:grid md:grid-cols-3 md:gap-x-[34px]">
             {articles.map((article, idx) => (
               <ArticleCard key={idx} article={article}>
@@ -112,7 +113,7 @@ function App() {
           </div>
         </div>
         <Button btntext="View all" position="justify-center" />
-      </section> */}
+      </section>
       {/* <Footer /> */}
     </>
   );
