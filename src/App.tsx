@@ -93,8 +93,8 @@ function App() {
           widthTitle="md:w-[254px]"
         />
       ))}
-      <Profile />
-      <section className="md:mt-[216px] container mx-auto">
+      {/* <Profile /> */}
+      {/* <section className="md:mt-[216px] container mx-auto">
         <div className="mx-auto flex flex-col md:w-[462px] md:h-[84px] mt-24">
           <h1 className="text-[36px] font-bold leading-[56px]">Check out our latest article</h1>
 
@@ -112,8 +112,8 @@ function App() {
           </div>
         </div>
         <Button btntext="View all" position="justify-center" />
-      </section>
-      <Footer />
+      </section> */}
+      {/* <Footer /> */}
     </>
   );
 }
