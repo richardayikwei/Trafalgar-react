@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="container mx-auto">
       <div className="flex flex-col md:flex-row md:justify-between">
         
-        <div className="flex-col md:flex-row w-[160px] h-[41px] mt-[56px] ml-[40px] ">
+        <div className="flex-col md:flex-row w-[160px] h-[41px] mt-[56px] ml-[40px] md:ml-0 ">
           <h1 className="text-[#233348] font-bold text-[24px]">
             <span className="rounded-full bg-[#458FF6] text-[26px] py-3 px-6 mr-3 font-bold  text-white">
               T
