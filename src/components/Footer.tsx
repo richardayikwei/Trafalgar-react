@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 const Footer = () => {
   return (
     <footer>
-      <div
+      <div 
         style={{ backgroundImage: `url(${assets.bgimages.element2})` }}
         className=" h-20 mr-20 items-end bg-no-repeat bg-right-bottom   mt-20 "
       ></div>
