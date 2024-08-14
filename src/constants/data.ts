@@ -9,7 +9,7 @@ export const profiles: Profile[] = [
     position: "Founder Circle",
     summary:
       "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
-    headshot: assets.profilepics.headshot,
+    headshot: assets.profilepics.headshot1,
 
   },
   {
