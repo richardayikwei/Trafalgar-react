@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <div 
         style={{ backgroundImage: `url(${assets.bgimages.element2})` }}
-        className=" h-20 mr-20 items-end bg-no-repeat bg-right-bottom   mt-20 "
+        className=" h-20 mr-20 items-end bg-no-repeat bg-right-bottom mt-20 "
       ></div>
 
       <div className=" flex flex-col md:flex-row bg-gradient-to-b from-[#67C3F3] to-[#5A98F2] justify-around p-20 space-y-6 ">
@@ -14,7 +14,7 @@ const Footer = () => {
           className="w-20 -ml-28 -mb-20 items-end bg-no-repeat bg-left-bottom hidden md:flex"
         ></div>
 
-        <div className="flex-col justify-center w-[391px] h-[201px] space-y-[31px] ">
+        <div className="flex-col justify-center md:w-[391px] h-[201px] space-y-[31px] ">
           <div className="text-left w-[201px]">
             <h1 className="text-[24px] leading-[30.12px] font-bold text-white">
               <span className="rounded-full bg-white text-[26px] h-[41px] w-[41px] py-[13px] px-[24px] font-bold mr-[12px] text-[#5B9BF3]">
