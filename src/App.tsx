@@ -42,7 +42,7 @@ function App() {
           </div>
         </div>
       </section>
-      <div className="mx-auto flex items-center flex-col space-y-5 md:h-[177px] max-w-[952px] lg:mt-[100px]">
+      <div className="mx-auto flex items-center flex-col space-y-5 md:h-[177px] max-w-[952px] mt-10 lg:mt-[100px]">
         <div className="w-[212px] font-bold leading-[56px] text-[36px]">
           <h1>Our services</h1>
         </div>
