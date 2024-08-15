@@ -51,7 +51,7 @@ function App() {
           <p className="border-b-2 w-[56px] border-black"></p>
         </div>
 
-        <div className="md:w-[952px] md:h-[60px] font-[300] text-[#7D7987] text-center leading-[30px]">
+        <div className="max-w-[952px] md:h-[60px] font-[300] text-[18px] text-[#7D7987] text-center leading-[30px]">
           <p>
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly
@@ -79,8 +79,8 @@ function App() {
           direction={"md:flex-row"}
           btnText={"Learn more"}
           position="justify-start"
-          widthDescription="md:w-[450px]"
-          widthTitle="md:w-[481px]"
+          widthDescription="max-w-[450px]"
+          widthTitle="max-w-[481px]"
         />
       ))}
       {services.slice(7, 8).map((service, idx) => (
@@ -90,13 +90,13 @@ function App() {
           direction={"md:flex-row-reverse"}
           btnText={`Download \u2193 `}
           position="justify-start"
-          widthDescription="md:w-[420px]"
-          widthTitle="md:w-[254px]"
+          widthDescription="max-w-[420px]"
+          widthTitle="max-w-[254px]"
         />
       ))}
       <Profile />
       <section className="md:mt-[216px] container mx-auto">
-        <div className="mx-auto text-center flex flex-col md:w-[462px] md:h-[84px] mt-24">
+        <div className="mx-auto text-center flex flex-col max-w-[462px] md:h-[84px] mt-24">
           <h1 className="text-[36px] font-bold leading-[56px]">
             Check out our latest article
           </h1>
@@ -105,7 +105,7 @@ function App() {
             <p className="border-b-2 w-[56px] border-black"></p>
           </div>
         </div>
-        <div className=" flex flex-col mt-16  md:w-[1118px] md:h-[512px]  container mx-auto">
+        <div className=" flex flex-col mt-16  max-w-[1118px] md:h-[512px]  container mx-auto">
           <div className="md:grid md:grid-cols-3 md:gap-x-[34px]">
             {articles.map((article, idx) => (
               <ArticleCard key={idx} article={article}>
