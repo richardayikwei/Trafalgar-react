@@ -72,15 +72,15 @@ function App() {
         </div>
       </section>
 
-      {/* {services.slice(6, 7).map((service, idx) => (
+      {services.slice(6, 7).map((service, idx) => (
         <Illustration
           key={idx}
           service={service}
           direction={"md:flex-row"}
           btnText={"Learn more"}
           position="justify-start"
-          widthDescription="md:w-[450px]"
-          widthTitle="md:w-[481px]"
+          widthDescription="max-w-[450px]"
+          widthTitle="max-w-[481px]"
         />
       ))}
       {services.slice(7, 8).map((service, idx) => (
@@ -90,10 +90,10 @@ function App() {
           direction={"md:flex-row-reverse"}
           btnText={`Download \u2193 `}
           position="justify-start"
-          widthDescription="md:w-[420px]"
-          widthTitle="md:w-[254px]"
+          widthDescription="max-w-[420px]"
+          widthTitle="max-w-[254px]"
         />
-      ))} */}
+      ))}
       {/* <Profile /> */}
       {/* <section className="md:mt-[216px] container mx-auto">
         <div className="mx-auto text-center flex flex-col md:w-[462px] md:h-[84px] mt-24">

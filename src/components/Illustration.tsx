@@ -24,14 +24,14 @@ const Illustration = ({direction, service , btnText, position, widthDescription,
         />
       </div>
 
-      <div className="flex flex-col md:text-left md:w-[486px] md:h-[388px] text-center">
+      <div className="flex flex-col md:text-left max-w-[486px] md:h-[388px] text-center">
         <h1
           className={`md:h-[112px] ${widthTitle} leading-[56px] text-[36px] mt-14 font-bold`}
         >
           {service.title}
         </h1>
 
-        <div className="flex md:justify-start justify-center mt-[26px]">
+        <div className="flex md:justify-start justify-center mt-[70px]">
           <p className="border-b-2 w-[56px] border-black"></p>
         </div>
 
