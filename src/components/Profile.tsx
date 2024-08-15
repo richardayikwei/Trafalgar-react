@@ -37,10 +37,10 @@ const Profile = () => {
   return (
     <section className="container mx-auto hidden md:flex">
       <div
-        className="container items-center mx-auto flex flex-col mt-[251px] md:w-[1219.58px] md:h-[502px] bg-no-repeat bg-left"
+        className="container items-center mx-auto flex flex-col mt-[251px] max-w-[1219.58px] md:h-[502px] bg-no-repeat bg-left"
         // style={{ backgroundImage: `url(${assets.bgimages.element})` }}
       >
-        <div className="bg-gradient-to-b from-[#67C3F3] to-[#5A98F2] rounded-[24px] md:w-[1120px] md:h-[425px]">
+        <div className="bg-gradient-to-b from-[#67C3F3] to-[#5A98F2] rounded-[24px] md::w-[768px] lg:w-[1120px] md:h-[425px]">
           <div
             className="flex justify-center bg-no-repeat bg-right-top"
             // style={{ backgroundImage: `url(${assets.bgimages.element})` }}
@@ -54,17 +54,17 @@ const Profile = () => {
             <p className="border-b-2 w-[56px]"></p>
           </div>
 
-          <div className="flex md:flex-row flex-col items-center mt-[68px]">
+          <div className="flex md:flex-row flex-col items-center justify-around mt-[68px]">
             <div className="">
               <img
                 src={nextProfile.headshot}
                 alt="headshot"
-                className=" flex w-[141px] rounded-full md:ml-[118px]"
+                className=" flex w-[141px] rounded-full "
               />
             </div>
 
-            <div className="flex flex-col md:ml-[29px]">
-              <h1 className="text-white text-[22px] leading-[48px] font-bold md:h-[48px] md:w-[184px]">
+            <div className="flex flex-col ">
+              <h1 className="text-white text-[22px] leading-[48px] font-bold md:h-[48px] max-w-[184px]">
                 {nextProfile.name}
               </h1>
               <p className="text-white text-[18px] font-[400]">
@@ -72,13 +72,13 @@ const Profile = () => {
               </p>
             </div>
 
-            <div className="flex md:ml-[110px] font-[400px] text-white text-[19px] md:w-[420px] md:h-[120px]">
+            <div className="flex  font-[400px] text-white text-[19px] max-w-[420px] md:h-[120px]">
               <p>{nextProfile.summary}</p>
             </div>
           </div>
         </div>
 
-        <div className="container mx-auto mt-[42px] flex flex-row justify-between md:w-[336.43px]">
+        <div className="container mx-auto mt-[42px] flex flex-row justify-between max-w-[336.43px]">
           <div className="h-0 text-4xl hover:text-blue-600 text-blue-300">
             <button onClick={handleClickBackward}>&#8592;</button>
           </div>

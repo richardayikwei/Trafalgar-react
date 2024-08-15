@@ -94,7 +94,7 @@ function App() {
           widthTitle="max-w-[254px]"
         />
       ))}
-      {/* <Profile /> */}
+      <Profile />
       {/* <section className="md:mt-[216px] container mx-auto">
         <div className="mx-auto text-center flex flex-col md:w-[462px] md:h-[84px] mt-24">
           <h1 className="text-[36px] font-bold leading-[56px]">
