@@ -116,7 +116,7 @@ function App() {
         </div>
         <Button btntext="View all" position="justify-center" />
       </section>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
