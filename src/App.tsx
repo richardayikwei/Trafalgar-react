@@ -51,7 +51,7 @@ function App() {
           <p className="border-b-2 w-[56px] border-black"></p>
         </div>
 
-        <div className="md:w-[952px] md:h-[60px] font-[300] text-[#7D7987] text-center leading-[30px]">
+        <div className="max-w-[952px] md:h-[60px] font-[300] text-[18px] text-[#7D7987] text-center leading-[30px]">
           <p>
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly
@@ -72,7 +72,7 @@ function App() {
         </div>
       </section>
 
-      {services.slice(6, 7).map((service, idx) => (
+      {/* {services.slice(6, 7).map((service, idx) => (
         <Illustration
           key={idx}
           service={service}
@@ -93,9 +93,9 @@ function App() {
           widthDescription="md:w-[420px]"
           widthTitle="md:w-[254px]"
         />
-      ))}
-      <Profile />
-      <section className="md:mt-[216px] container mx-auto">
+      ))} */}
+      {/* <Profile /> */}
+      {/* <section className="md:mt-[216px] container mx-auto">
         <div className="mx-auto text-center flex flex-col md:w-[462px] md:h-[84px] mt-24">
           <h1 className="text-[36px] font-bold leading-[56px]">
             Check out our latest article
@@ -115,8 +115,8 @@ function App() {
           </div>
         </div>
         <Button btntext="View all" position="justify-center" />
-      </section>
-      <Footer />
+      </section> */}
+      {/* <Footer /> */}
     </>
   );
 }
