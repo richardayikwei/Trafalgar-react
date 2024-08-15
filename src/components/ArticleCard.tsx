@@ -7,7 +7,7 @@ type ArticleCardProps = {
 
 const SectionFour = ({article, children}: ArticleCardProps) => {
   return (
-    <div className="flex flex-col max-w-[350px] md:h-[512px] md:border-transparent md:shadow-xl rounded-[20px] mb-10 ">
+    <div className="flex  flex-col max-w-[350px] md:h-[512px] md:border-transparent md:shadow-xl rounded-[20px] mb-10 ">
       <img
         src={article.image}
         alt={article.alt}

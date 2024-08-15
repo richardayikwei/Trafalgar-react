@@ -20,9 +20,9 @@ function App() {
       </div>
 
       <section className="container md:mx-auto">
-        <div className="flex flex-col-reverse md:flex-row md:mt-0 mt-[200px] justify-between">
-          <div className="flex flex-col md:w-[445px] space-y-9 w-[445px] h-[338px] rounded-[55px]">
-            <h1 className="text-[48px] h-[112px] md:text-left text-center w-[427px] font-bold leading-[56px]">
+        <div className="flex flex-col-reverse md:flex-row md:mt-0 mt-[200px] md:justify-between">
+          <div className="flex flex-col max-w-[445px] space-y-9 md:h-[338px] rounded-[55px]">
+            <h1 className="text-[48px] md:h-[112px] md:text-left text-center max-w-[427px] font-bold leading-[56px]">
               Virtual healthcare for you
             </h1>
 
@@ -42,7 +42,7 @@ function App() {
           </div>
         </div>
       </section>
-      <div className="flex flex-col items-center space-y-5 md:h-[177px] md:w-[952px] lg:mt-[100px] container mx-auto">
+      <div className="flex items-center flex-col space-y-5 md:h-[177px] md:w-[952px] lg:mt-[100px]">
         <div className="w-[212px] font-bold leading-[56px] text-[36px]">
           <h1>Our services</h1>
         </div>
@@ -51,7 +51,7 @@ function App() {
           <p className="border-b-2 w-[56px] border-black"></p>
         </div>
 
-        <div className="max-w-[952px] md:h-[60px] font-[300] text-[18px] text-[#7D7987] text-center leading-[30px]">
+        <div className="mx-auto max-w-[952px] md:h-[60px] font-[300] text-[18px] text-[#7D7987] text-center leading-[30px]">
           <p>
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly
@@ -61,7 +61,7 @@ function App() {
         </div>
       </div>
       <section>
-        <div className=" flex flex-col mx-auto mt-16 container md:w-[1120px] md:h-[745px] ">
+        <div className=" flex flex-col mx-auto mt-16 container md:w-[1120px] md:h-[745px] items-center ">
           <div className="md:grid md:grid-cols-3 md:gap-x-[34px] md:gap-y-[37px]">
             {services.slice(0, 6).map((service, idx) => (
               <ServiceCard key={idx} service={service} />
@@ -105,7 +105,7 @@ function App() {
             <p className="border-b-2 w-[56px] border-black"></p>
           </div>
         </div>
-        <div className=" flex flex-col mt-16  max-w-[1118px] md:h-[512px]  container mx-auto">
+        <div className=" flex flex-col mt-16 items-center max-w-[1118px] md:h-[512px] container mx-auto">
           <div className="md:grid md:grid-cols-3 md:gap-x-[34px]">
             {articles.map((article, idx) => (
               <ArticleCard key={idx} article={article}>
