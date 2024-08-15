@@ -40,7 +40,7 @@ const Profile = () => {
         className="container items-center mx-auto flex flex-col mt-[251px] max-w-[1219.58px] md:h-[502px] bg-no-repeat bg-left"
         // style={{ backgroundImage: `url(${assets.bgimages.element})` }}
       >
-        <div className="bg-gradient-to-b from-[#67C3F3] to-[#5A98F2] rounded-[24px] md::w-[768px] lg:w-[1120px] md:h-[425px]">
+        <div className="bg-gradient-to-b from-[#67C3F3] to-[#5A98F2] rounded-[24px] md:w-[768px] lg:w-[1024px] md:h-[425px]">
           <div
             className="flex justify-center bg-no-repeat bg-right-top"
             // style={{ backgroundImage: `url(${assets.bgimages.element})` }}

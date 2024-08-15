@@ -95,8 +95,8 @@ function App() {
         />
       ))}
       <Profile />
-      {/* <section className="md:mt-[216px] container mx-auto">
-        <div className="mx-auto text-center flex flex-col md:w-[462px] md:h-[84px] mt-24">
+      <section className="md:mt-[216px] container mx-auto">
+        <div className="mx-auto text-center flex flex-col max-w-[462px] md:h-[84px] mt-24">
           <h1 className="text-[36px] font-bold leading-[56px]">
             Check out our latest article
           </h1>
@@ -105,7 +105,7 @@ function App() {
             <p className="border-b-2 w-[56px] border-black"></p>
           </div>
         </div>
-        <div className=" flex flex-col mt-16  md:w-[1118px] md:h-[512px]  container mx-auto">
+        <div className=" flex flex-col mt-16  max-w-[1118px] md:h-[512px]  container mx-auto">
           <div className="md:grid md:grid-cols-3 md:gap-x-[34px]">
             {articles.map((article, idx) => (
               <ArticleCard key={idx} article={article}>
@@ -115,7 +115,7 @@ function App() {
           </div>
         </div>
         <Button btntext="View all" position="justify-center" />
-      </section> */}
+      </section>
       {/* <Footer /> */}
     </>
   );
