@@ -21,7 +21,7 @@ function App() {
 
       <section className="container md:mx-auto">
         <div className="flex flex-col-reverse md:flex-row md:mt-0 mt-[200px] md:justify-between">
-          <div className="flex flex-col max-w-[445px] space-y-9 md:h-[338px] rounded-[55px]">
+          <div className="flex flex-col max-w-[445px] space-y-9 md:h-[338px] rounded-[55px] mx-auto">
             <h1 className="text-[48px] md:h-[112px] md:text-left text-center max-w-[427px] font-bold leading-[56px]">
               Virtual healthcare for you
             </h1>

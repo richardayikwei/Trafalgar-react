@@ -14,7 +14,7 @@ type Illustration = {
 const Illustration = ({direction, service , btnText, position, widthDescription, widthTitle}: Illustration) => {
   return (
     <div
-      className={`container flex justify-center flex-col ${direction} mx-auto md:w-[1273px] md:h-[477px] md:space-x-16 md:mt-[220px] mt-10`}
+      className={`container flex items-center flex-col ${direction} mx-auto md:w-[1273px] md:h-[477px] md:space-x-16 md:mt-[220px] mt-10`}
     >
       <div className="flex justify-center  md:justify-start">
         <img
@@ -24,7 +24,7 @@ const Illustration = ({direction, service , btnText, position, widthDescription,
         />
       </div>
 
-      <div className="flex flex-col md:text-left max-w-[486px] md:h-[388px] text-center">
+      <div className="flex flex-col justify-center items-center md:text-left max-w-[486px] md:h-[388px] text-center">
         <h1
           className={`md:h-[112px] ${widthTitle} leading-[56px] text-[36px] mt-14 font-bold`}
         >
