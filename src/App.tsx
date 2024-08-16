@@ -78,7 +78,7 @@ function App() {
           service={service}
           direction={"md:flex-row"}
           btnText={"Learn more"}
-          position="justify-start"
+          position="md:justify-start"
           widthDescription="max-w-[450px]"
           widthTitle="max-w-[481px]"
         />
@@ -89,7 +89,7 @@ function App() {
           service={service}
           direction={"md:flex-row-reverse"}
           btnText={`Download \u2193 `}
-          position="justify-start"
+          position="md:justify-start"
           widthDescription="max-w-[420px]"
           widthTitle="max-w-[254px]"
         />
