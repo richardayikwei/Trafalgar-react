@@ -24,7 +24,7 @@ const Illustration = ({direction, service , btnText, position, widthDescription,
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center md:text-left max-w-[486px] md:h-[388px] text-center">
+      <div className="flex flex-col justify-center items-center md:text-left md:items-start max-w-[486px] md:h-[388px] text-center">
         <h1
           className={`md:h-[112px] ${widthTitle} leading-[56px] text-[36px] mt-14 font-bold`}
         >
