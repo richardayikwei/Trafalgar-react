@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex-col justify-center md:w-[391px] h-[201px] space-y-[31px] ">
           <div className="text-left w-[201px]">
             <h1 className="text-[24px] leading-[30.12px] font-bold text-white">
-              <span className="rounded-full bg-white text-[26px] h-[41px] w-[41px] py-[13px] px-[24px] font-bold mr-[12px] text-[#5B9BF3]">
+              <span className="rounded-full bg-white text-[26px] h-[41px] w-[41px] py-[17px] px-[24px] font-bold mr-[12px] text-[#5B9BF3]">
                 T
               </span>
               Trafalgar
