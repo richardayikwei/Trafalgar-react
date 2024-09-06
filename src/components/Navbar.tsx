@@ -16,32 +16,32 @@ const Navbar = () => {
           </h1>
         </div>
        
-        <div className="flex flex-col md:flex-row md:space-x-[40px] ml-[40px] md:w-[545px] h-[23px] mt-[70px] text-[18px] text-[#1F1534] ">
+        <nav className="flex flex-col md:flex-row md:space-x-[40px] ml-[40px] md:w-[545px] h-[23px] mt-[70px] text-[18px] text-[#1F1534] ">
           <a
             href="#"
-            className="font-bold hover:bg-[#1F1534] w-[51px] hover:text-white"
+            className="font-bold md:hover:bg-[#1F1534] w-[51px] md:hover:text-white"
           >
             Home
           </a>
           <a
             href="#"
-            className="opacity-50 hover:bg-[#1F1534] hover:text-white w-[110px]"
+            className="opacity-50 md:hover:bg-[#1F1534] md:hover:text-white w-[110px]"
           >
             Find a doctor
           </a>
-          <a href="#" className="opacity-50 w-[44px] hover:bg-[#1F1534] hover:text-white">
+          <a href="#" className="opacity-50 w-[44px] md:hover:bg-[#1F1534] md:hover:text-white">
             Apps
           </a>
           <a
             href="#"
-            className="opacity-50 w-[104px] hover:bg-[#1F1534] hover:text-white"
+            className="opacity-50 w-[104px] md:hover:bg-[#1F1534] md:hover:text-white"
           >
             Testimonials
           </a>
-          <a href="#" className="opacity-50 w-[76px] hover:bg-[#1F1534] hover:text-white">
+          <a href="#" className="opacity-50 w-[76px] md:hover:bg-[#1F1534] md:hover:text-white">
             About Us
           </a>
-        </div>
+        </nav>
       </div>
     </nav>
   );
