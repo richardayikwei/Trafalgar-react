@@ -1,5 +1,5 @@
-import { Service } from "../types/service"
-import Button from "./Button"
+import { Service } from "../types/service";
+import Button from "./Button";
 
 type Illustration = {
   direction: string;
@@ -8,10 +8,16 @@ type Illustration = {
   position: string;
   widthDescription: string;
   widthTitle: string;
-}
+};
 
-
-const Illustration = ({direction, service , btnText, position, widthDescription, widthTitle}: Illustration) => {
+const Illustration = ({
+  direction,
+  service,
+  btnText,
+  position,
+  widthDescription,
+  widthTitle,
+}: Illustration) => {
   return (
     <div
       className={`container flex items-center flex-col ${direction} mx-auto md:w-[1273px] md:h-[477px] md:space-x-16 md:mt-[220px] mt-10`}
@@ -45,6 +51,6 @@ const Illustration = ({direction, service , btnText, position, widthDescription,
       </div>
     </div>
   );
-}
+};
 
-export default Illustration
+export default Illustration;

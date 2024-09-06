@@ -1,9 +1,9 @@
 interface ButtonProps {
-  btntext: string,
-  position: string
+  btntext: string;
+  position: string;
 }
 
-const Button = ({btntext, position} : ButtonProps) => {
+const Button = ({ btntext, position }: ButtonProps) => {
   return (
     <div className={`flex ${position} text-center mt-[70px]`}>
       <a
@@ -14,6 +14,6 @@ const Button = ({btntext, position} : ButtonProps) => {
       </a>
     </div>
   );
-}
+};
 
-export default Button
+export default Button;
