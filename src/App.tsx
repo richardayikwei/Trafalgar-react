@@ -12,7 +12,7 @@ import ArrowBtn from "./components/ArrowBtn";
 
 function App() {
   return (
-    < div className="font-mulish">
+    <div className="font-mulish">
       <Navbar />
 
       <figure className="hidden w-[131.58px] h-[115px] mt-[63px] md:flex ">
@@ -27,13 +27,16 @@ function App() {
             </h1>
 
             <p className="text-[#7D7987] md:text-left text-center text-[21px] leading-[32px] font-[300]">
-            
+              Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
             </p>
 
             <div className="md:justify-start justify-center flex  md:flex-row ">
-              <button type="button" className="bg-blue-400 font-bold text-[18px] leading-[60px] rounded-[55px] text-white text-center md:hover:bg-blue-700 w-[200px] h-[60px] active:opacity-5">
+              <button
+                type="button"
+                className="bg-blue-400 font-bold text-[18px] leading-[60px] rounded-[55px] text-white text-center md:hover:bg-blue-700 w-[200px] h-[60px] active:opacity-5"
+              >
                 Consult today
-              </button >
+              </button>
             </div>
           </article>
           <figure className="md:w-[693px] md:h-[598px] -mt-16">
@@ -114,7 +117,7 @@ function App() {
         <Button btntext="View all" position="justify-center" />
       </section>
       <Footer />
-    </ div>
+    </div>
   );
 }
 
